@@ -80,11 +80,9 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/LYF/mobee01a/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
     vendor/LYF/mobee01a/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
-    vendor/LYF/mobee01a/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/LYF/mobee01a/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
     vendor/LYF/mobee01a/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/LYF/mobee01a/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
@@ -109,7 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
@@ -566,8 +564,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -699,6 +696,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libchromatix_t4kb3_zsl.so:system/vendor/lib64/libchromatix_t4kb3_zsl.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
@@ -752,7 +750,6 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libril-qcril-hook-oem.so:system/vendor/lib64/libril-qcril-hook-oem.so \
@@ -761,7 +758,6 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
