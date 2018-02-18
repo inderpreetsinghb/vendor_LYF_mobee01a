@@ -67,16 +67,21 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/LYF/mobee01a/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/LYF/mobee01a/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/LYF/mobee01a/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/LYF/mobee01a/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/LYF/mobee01a/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/LYF/mobee01a/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/LYF/mobee01a/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
     vendor/LYF/mobee01a/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/LYF/mobee01a/proprietary/lib/hw/consumerir.msm8916.so:system/lib/hw/consumerir.msm8916.so \
+    vendor/LYF/mobee01a/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/LYF/mobee01a/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-    vendor/LYF/mobee01a/proprietary/lib64/hw/consumerir.msm8916.so:system/lib64/hw/consumerir.msm8916.so \
+    vendor/LYF/mobee01a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/LYF/mobee01a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/LYF/mobee01a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+    vendor/LYF/mobee01a/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
     vendor/LYF/mobee01a/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/LYF/mobee01a/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
+    vendor/LYF/mobee01a/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
     vendor/LYF/mobee01a/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/LYF/mobee01a/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/LYF/mobee01a/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
@@ -621,11 +626,8 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libcalmodule_akm.so:system/vendor/lib64/libcalmodule_akm.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libcalmodule_common.so:system/vendor/lib64/libcalmodule_common.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libcalmodule_gyroscope.so:system/vendor/lib64/libcalmodule_gyroscope.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libcalmodule_senodia.so:system/vendor/lib64/libcalmodule_senodia.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libcalmodule_yamaha.so:system/vendor/lib64/libcalmodule_yamaha.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libchromatix_imx135_liveshot.so:system/vendor/lib64/libchromatix_imx135_liveshot.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libchromatix_imx214_common.so:system/vendor/lib64/libchromatix_imx214_common.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libchromatix_imx214_default_video.so:system/vendor/lib64/libchromatix_imx214_default_video.so \
