@@ -17,8 +17,6 @@
 PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/LYF/mobee01a/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/LYF/mobee01a/proprietary/bin/cnd:system/bin/cnd \
-    vendor/LYF/mobee01a/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/LYF/mobee01a/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/LYF/mobee01a/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/LYF/mobee01a/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -41,10 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/LYF/mobee01a/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
-    vendor/LYF/mobee01a/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/LYF/mobee01a/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/LYF/mobee01a/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/LYF/mobee01a/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
     vendor/LYF/mobee01a/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
     vendor/LYF/mobee01a/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
@@ -58,21 +52,11 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
     vendor/LYF/mobee01a/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
     vendor/LYF/mobee01a/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/LYF/mobee01a/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/LYF/mobee01a/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/LYF/mobee01a/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/LYF/mobee01a/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
-    vendor/LYF/mobee01a/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/LYF/mobee01a/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
     vendor/LYF/mobee01a/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/LYF/mobee01a/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/LYF/mobee01a/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/LYF/mobee01a/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
-    vendor/LYF/mobee01a/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/LYF/mobee01a/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/LYF/mobee01a/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/LYF/mobee01a/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/LYF/mobee01a/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/LYF/mobee01a/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
     vendor/LYF/mobee01a/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/LYF/mobee01a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -420,16 +404,8 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libchromatix_t4kb3_preview.so:system/vendor/lib/libchromatix_t4kb3_preview.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libchromatix_t4kb3_snapshot.so:system/vendor/lib/libchromatix_t4kb3_snapshot.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libchromatix_t4kb3_zsl.so:system/vendor/lib/libchromatix_t4kb3_zsl.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libcneqmiutils.so:system/vendor/lib/libcneqmiutils.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -563,7 +539,6 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
@@ -602,11 +577,14 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -694,18 +672,10 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libchromatix_t4kb3_preview.so:system/vendor/lib64/libchromatix_t4kb3_preview.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libchromatix_t4kb3_snapshot.so:system/vendor/lib64/libchromatix_t4kb3_snapshot.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libchromatix_t4kb3_zsl.so:system/vendor/lib64/libchromatix_t4kb3_zsl.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libcneapiclient.so:system/vendor/lib64/libcneapiclient.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libcneqmiutils.so:system/vendor/lib64/libcneqmiutils.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libdpmctmgr.so:system/vendor/lib64/libdpmctmgr.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libdrmfs.so:system/vendor/lib64/libdrmfs.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libdrmtime.so:system/vendor/lib64/libdrmtime.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
@@ -758,13 +728,14 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
 
@@ -774,7 +745,6 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     TimeService \
     shutdownlistener \
-    CNEService \
     qcrilmsgtunnel \
     ims \
     imssettings \
