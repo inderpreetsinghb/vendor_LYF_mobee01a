@@ -71,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/LYF/mobee01a/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
     vendor/LYF/mobee01a/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
+    vendor/LYF/mobee01a/proprietary/lib64/libprotobuf-cpp-full.so:system/lib64/libprotobuf-cpp-full.so \
     vendor/LYF/mobee01a/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
     vendor/LYF/mobee01a/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/LYF/mobee01a/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
