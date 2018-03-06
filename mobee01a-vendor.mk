@@ -62,6 +62,10 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/LYF/mobee01a/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
     vendor/LYF/mobee01a/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
+    vendor/LYF/mobee01a/proprietary/lib/hw/camera.msm8916.so:system/lib/hw/camera.msm8916.so \
+    vendor/LYF/mobee01a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
+    vendor/LYF/mobee01a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
+    vendor/LYF/mobee01a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/LYF/mobee01a/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
     vendor/LYF/mobee01a/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/LYF/mobee01a/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
@@ -746,10 +750,6 @@ PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api \
     vendor.qti.hardware.fm@1.0 \
-    camera.msm8916 \
-    libmmcamera_interface \
-    libmmjpeg_interface \
-    libqomx_core \
     libtime_genoff \
     TimeService \
     colorservice \
