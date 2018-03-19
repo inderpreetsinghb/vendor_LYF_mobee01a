@@ -45,9 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     vendor/LYF/mobee01a/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
     vendor/LYF/mobee01a/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/ice40.bin:system/etc/firmware/ice40.bin \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/LYF/mobee01a/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/LYF/mobee01a/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/LYF/mobee01a/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
@@ -427,6 +424,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
@@ -516,6 +514,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
@@ -747,9 +746,10 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
 
 PRODUCT_PACKAGES += \
+    vendor.qti.hardware.fm@1.0 \
     libloc_api_v02 \
     libloc_ds_api \
-    vendor.qti.hardware.fm@1.0 \
+    libaudioalsa \
     libtime_genoff \
     TimeService \
     colorservice \
