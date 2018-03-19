@@ -537,10 +537,10 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
@@ -740,6 +740,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
