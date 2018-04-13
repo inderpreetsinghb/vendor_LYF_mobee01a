@@ -5,6 +5,6 @@
 -->
 <permissions>
     <permission name="com.qti.permission.DIAG">
-        <group gid="oem_2950" />
+        <group gid="qcom_diag" />
     </permission>
 </permissions>
