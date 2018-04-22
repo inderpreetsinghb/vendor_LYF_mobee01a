@@ -1,4 +1,4 @@
-# Copyright (C) 2018 The LineageOS Project
+t# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -737,6 +737,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
+    vendor/lenovo/A6020/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
