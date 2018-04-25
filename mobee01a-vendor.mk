@@ -1,4 +1,4 @@
-t# Copyright (C) 2018 The LineageOS Project
+# Copyright (C) 2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,22 +16,18 @@ t# Copyright (C) 2018 The LineageOS Project
 
 PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/LYF/mobee01a/proprietary/bin/btnvtool:system/bin/btnvtool \
-    vendor/LYF/mobee01a/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/LYF/mobee01a/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/LYF/mobee01a/proprietary/bin/imscmservice:system/bin/imscmservice \
-    vendor/LYF/mobee01a/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
-    vendor/LYF/mobee01a/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon \
-    vendor/LYF/mobee01a/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/LYF/mobee01a/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
-    vendor/LYF/mobee01a/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/LYF/mobee01a/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
-    vendor/LYF/mobee01a/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/LYF/mobee01a/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/LYF/mobee01a/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/LYF/mobee01a/proprietary/bin/radish:system/bin/radish \
-    vendor/LYF/mobee01a/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/LYF/mobee01a/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/radish:system/vendor/bin/radish \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage \
+    vendor/LYF/mobee01a/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
     vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
     vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
@@ -39,26 +35,22 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/venus.mbn:system/etc/firmware/venus.mbn \
-    vendor/LYF/mobee01a/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
-    vendor/LYF/mobee01a/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/LYF/mobee01a/proprietary/etc/permissions/imscm.xml:system/etc/permissions/imscm.xml \
-    vendor/LYF/mobee01a/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/LYF/mobee01a/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/LYF/mobee01a/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/venus.b00:system/vendor/firmware/venus.b00 \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/venus.b01:system/vendor/firmware/venus.b01 \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/venus.b02:system/vendor/firmware/venus.b02 \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/venus.b03:system/vendor/firmware/venus.b03 \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/venus.b04:system/vendor/firmware/venus.b04 \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/venus.mbn:system/vendor/firmware/venus.mbn \
+    vendor/LYF/mobee01a/proprietary/vendor/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/LYF/mobee01a/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
-    vendor/LYF/mobee01a/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/LYF/mobee01a/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/LYF/mobee01a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/LYF/mobee01a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
@@ -81,12 +73,9 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:system/vendor/lib/egl/libRBGLESv1_CM_adreno.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/egl/libRBGLESv2_adreno.so:system/vendor/lib/egl/libRBGLESv2_adreno.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
@@ -411,19 +400,14 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -515,7 +499,6 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
@@ -540,13 +523,13 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:system/vendor/lib64/egl/eglSubDriverAndroid.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/egl/eglsubAndroid.so:system/vendor/lib64/egl/eglsubAndroid.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/egl/libEGL_adreno.so:system/vendor/lib64/egl/libEGL_adreno.so \
@@ -561,35 +544,11 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/egl/libRBGLESv2_adreno.so:system/vendor/lib64/egl/libRBGLESv2_adreno.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:system/vendor/lib64/egl/libq3dtools_adreno.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/hw/flp.default.so:system/vendor/lib64/hw/flp.default.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-ims-rcscmjni.so:system/vendor/lib64/lib-ims-rcscmjni.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imsdpl.so:system/vendor/lib64/lib-imsdpl.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imsqimf.so:system/vendor/lib64/lib-imsqimf.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imsrcscm.so:system/vendor/lib64/lib-imsrcscm.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imsrcscmservice.so:system/vendor/lib64/lib-imsrcscmservice.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imsvt.so:system/vendor/lib64/lib-imsvt.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-rcsimssjni.so:system/vendor/lib64/lib-rcsimssjni.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-rcsjni.so:system/vendor/lib64/lib-rcsjni.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-rtpcommon.so:system/vendor/lib64/lib-rtpcommon.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-rtpcore.so:system/vendor/lib64/lib-rtpcore.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-rtpsl.so:system/vendor/lib64/lib-rtpsl.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/lib-sec-disp.so:system/vendor/lib64/lib-sec-disp.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libC2D2.so:system/vendor/lib64/libC2D2.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libCB.so:system/vendor/lib64/libCB.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libOmxAacDec.so:system/vendor/lib64/libOmxAacDec.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libOpenCL.so:system/vendor/lib64/libOpenCL.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libQSEEComAPI.so:system/vendor/lib64/libQSEEComAPI.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libRSDriver_adreno.so:system/vendor/lib64/libRSDriver_adreno.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libSecureUILib.so:system/vendor/lib64/libSecureUILib.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libStDrvInt.so:system/vendor/lib64/libStDrvInt.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libTimeService.so:system/vendor/lib64/libTimeService.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libacdbloader.so:system/vendor/lib64/libacdbloader.so \
@@ -691,8 +650,6 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libhwdaphal.so:system/vendor/lib64/libhwdaphal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libimscamera_jni.so:system/vendor/lib64/libimscamera_jni.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libimsmedia_jni.so:system/vendor/lib64/libimsmedia_jni.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
@@ -710,7 +667,6 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libmmcamera_s5k5e2_F5E2YAU.so:system/vendor/lib64/libmmcamera_s5k5e2_F5E2YAU.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libmmcamera_s5k5e2_SFS5C7597.so:system/vendor/lib64/libmmcamera_s5k5e2_SFS5C7597.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libmmcamera_t4kb3.so:system/vendor/lib64/libmmcamera_t4kb3.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libmmosal.so:system/vendor/lib64/libmmosal.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libnetmgr.so:system/vendor/lib64/libnetmgr.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
@@ -733,32 +689,19 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsc-a3xx.so:system/vendor/lib64/libsc-a3xx.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libssd.so:system/vendor/lib64/libssd.so \
-    vendor/lenovo/A6020/proprietary/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libsystem_health_mon.so:system/vendor/lib64/libsystem_health_mon.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libthermalclient.so:system/vendor/lib64/libthermalclient.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libthermalioctl.so:system/vendor/lib64/libthermalioctl.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libuiblur.so:system/vendor/lib64/libuiblur.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libvcel.so:system/vendor/lib64/libvcel.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libvoice-svc.so:system/vendor/lib64/libvoice-svc.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/LYF/mobee01a/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so
 
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.fm@1.0 \
     libloc_api_v02 \
     libloc_ds_api \
-    libaudioalsa \
     libtime_genoff \
     TimeService \
-    colorservice \
     shutdownlistener \
     qcrilmsgtunnel \
-    ims \
-    imssettings \
-    imscmlibrary \
     qcnvitems \
     qcrilhook
