@@ -21,7 +21,7 @@ ifeq ($(TARGET_DEVICE),mobee01a)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := LYF
-LOCAL_SRC_FILES := proprietary/lib64/vendor/lib64/libloc_api_v02.so
+LOCAL_SRC_FILES := proprietary/vendor/lib64/libloc_api_v02.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -32,7 +32,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_ds_api
 LOCAL_MODULE_OWNER := LYF
-LOCAL_SRC_FILES := proprietary/lib64/vendor/lib64/libloc_ds_api.so
+LOCAL_SRC_FILES := proprietary/vendor/lib64/libloc_ds_api.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -55,7 +55,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := LYF
-LOCAL_SRC_FILES := proprietary/app/vendor/app/TimeService/TimeService.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -66,7 +66,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := shutdownlistener
 LOCAL_MODULE_OWNER := LYF
-LOCAL_SRC_FILES := proprietary/app/vendor/app/shutdownlistener/shutdownlistener.apk
+LOCAL_SRC_FILES := proprietary/vendor/app/shutdownlistener/shutdownlistener.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -89,7 +89,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcnvitems
 LOCAL_MODULE_OWNER := LYF
-LOCAL_SRC_FILES := proprietary/framework/vendor/framework/qcnvitems.jar
+LOCAL_SRC_FILES := proprietary/vendor/framework/qcnvitems.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -99,7 +99,7 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilhook
 LOCAL_MODULE_OWNER := LYF
-LOCAL_SRC_FILES := proprietary/framework/vendor/framework/qcrilhook.jar
+LOCAL_SRC_FILES := proprietary/vendor/framework/qcrilhook.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
