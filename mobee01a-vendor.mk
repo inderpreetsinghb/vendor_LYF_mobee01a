@@ -62,8 +62,10 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/LYF/mobee01a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/LYF/mobee01a/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
+vendor/LYF/mobee01a/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
     vendor/LYF/mobee01a/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
     vendor/LYF/mobee01a/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
+vendor/LYF/mobee01a/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/LYF/mobee01a/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/LYF/mobee01a/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/LYF/mobee01a/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
