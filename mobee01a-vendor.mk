@@ -56,15 +56,15 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
-    vendor/LYF/mobee01a/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/LYF/mobee01a/proprietary/lib/hw/camera.vendor.msm8916.so:system/lib/hw/camera.vendor.msm8916.so \
     vendor/LYF/mobee01a/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/LYF/mobee01a/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/LYF/mobee01a/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/LYF/mobee01a/proprietary/lib/sensors.native.so:system/lib/sensors.native.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/sensors.native.so:system/vendor/lib/sensors.native.so \
 vendor/LYF/mobee01a/proprietary/lib/libaptX_encoder.so:system/lib/libaptX_encoder.so \
-    vendor/LYF/mobee01a/proprietary/lib64/hw/sensors.msm8916.so:system/lib64/hw/sensors.msm8916.so \
-    vendor/LYF/mobee01a/proprietary/lib64/sensors.native.so:system/lib64/sensors.native.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/hw/sensors.msm8916.so:system/vendor/lib64/hw/sensors.msm8916.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/sensors.native.so:system/vendor/lib64/sensors.native.so \
 vendor/LYF/mobee01a/proprietary/lib64/libaptX_encoder.so:system/lib64/libaptX_encoder.so \
     vendor/LYF/mobee01a/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/LYF/mobee01a/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
