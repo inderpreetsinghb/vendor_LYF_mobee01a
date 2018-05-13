@@ -16,7 +16,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/bin/adsprpcd:system/bin/adsprpcd \
-    vendor/LYF/mobee01a/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/LYF/mobee01a/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/LYF/mobee01a/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon \
     vendor/LYF/mobee01a/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice \
