@@ -734,4 +734,5 @@ PRODUCT_PACKAGES += \
     TimeService \
     shutdownlistener \
     ims \
-    imssettings
+    imssettings \
+    libaudioalsa
