@@ -57,10 +57,10 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/qti_permissions.xml:vendoretc/permissions/qti_permissions.xml \
     vendor/LYF/mobee01a/proprietary/vendor/etc/sensors/hals.conf:vendoretc/sensors/hals.conf \
     vendor/LYF/mobee01a/proprietary/vendor/lib/sensors.native.so:vendorlib/sensors.native.so \
-vendor/LYF/mobee01a/proprietary/lib/libaptX_encoder.so:vendor/lib/libaptX_encoder.so \
+vendor/LYF/mobee01a/proprietary/vendor/lib/libaptX_encoder.so:vendor/lib/libaptX_encoder.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/hw/sensors.msm8916.so:vendorlib64/hw/sensors.msm8916.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/sensors.native.so:vendorlib64/sensors.native.so \
-vendor/LYF/mobee01a/proprietary/lib64/libaptX_encoder.so:vendor/lib64/libaptX_encoder.so \
+vendor/LYF/mobee01a/proprietary/vendor/lib64/libaptX_encoder.so:vendor/lib64/libaptX_encoder.so \
     vendor/LYF/mobee01a/proprietary/vendor/bin/perfd:vendorbin/perfd \
     vendor/LYF/mobee01a/proprietary/vendor/bin/thermal-engine:vendorbin/thermal-engine \
     vendor/LYF/mobee01a/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:vendorlib/egl/eglSubDriverAndroid.so \
