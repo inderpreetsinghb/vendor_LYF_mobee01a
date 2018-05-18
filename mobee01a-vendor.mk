@@ -31,13 +31,13 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/bin/radish:vendorbin/radish \
     vendor/LYF/mobee01a/proprietary/vendor/bin/rmt_storage:vendorbin/rmt_storage \
     vendor/LYF/mobee01a/proprietary/vendor/bin/time_daemon:vendorbin/time_daemon \
-    vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:system/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_General_cal.acdb:system/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Global_cal.acdb:system/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Handset_cal.acdb:system/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/LYF/mobee01a/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:vendor/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
     vendor/LYF/mobee01a/proprietary/vendor/firmware/a420_pfp.fw:vendorfirmware/a420_pfp.fw \
     vendor/LYF/mobee01a/proprietary/vendor/firmware/a420_pm4.fw:vendorfirmware/a420_pm4.fw \
     vendor/LYF/mobee01a/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:vendorfirmware/cpp_firmware_v1_1_1.fw \
