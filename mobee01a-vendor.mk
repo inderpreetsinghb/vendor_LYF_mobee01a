@@ -23,6 +23,10 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon \
     vendor/LYF/mobee01a/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/LYF/mobee01a/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
+    vendor/LYF/mobee01a/proprietary/vendor/framework/com.qti.snapdragon.sdk.display.jar:system/vendor/framework/com.qti.snapdragon.sdk.display.jar \
+vendor/LYF/mobee01a/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
+vendor/LYF/mobee01a/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
+vendor/LYF/mobee01a/proprietary/vendor/lib64/libmm-abl.so:system/vendor/lib64/libmm-abl.so \
     vendor/LYF/mobee01a/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/LYF/mobee01a/proprietary/vendor/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/LYF/mobee01a/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
@@ -38,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
     vendor/LYF/mobee01a/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
     vendor/LYF/mobee01a/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:system/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/LYF/mobee01a/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
     vendor/LYF/mobee01a/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
     vendor/LYF/mobee01a/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
@@ -727,9 +732,14 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     libloc_api_v02 \
     libloc_ds_api \
+    vendor.qti.hardware.fm@1.0 \
     qcrilmsgtunnel \
     TimeService \
-    shutdownlistener \
+    colorservice \
+    qcrilmsgtunnel \
     ims \
     imssettings \
+    imscmlibrary \
+    qcnvitems \
+    qcrilhook \
     libaudioalsa
