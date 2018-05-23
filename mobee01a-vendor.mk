@@ -58,6 +58,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/LYF/mobee01a/proprietary/vendor/lib/sensors.native.so:system/vendor/lib/sensors.native.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libaptX_encoder.so:system/vendor/lib/libaptX_encoder.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/hw/sensors.msm8916.so:system/vendor/lib64/hw/sensors.msm8916.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/sensors.native.so:system/vendor/lib64/sensors.native.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libaptX_encoder.so:system/vendor/lib64/libaptX_encoder.so \
     vendor/LYF/mobee01a/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -732,5 +733,4 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     ims \
     imssettings \
-    sensors.msm8916 \
     libaudioalsa
