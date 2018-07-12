@@ -594,6 +594,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libc2d30-a3xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a3xx.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libc2d30-a4xx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30-a4xx.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libcalmodule_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_common.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcalmodule_gyroscope.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libcalmodule_gyroscope.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcalmodule_gyroscope.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libchromatix_imx135_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchromatix_imx135_liveshot.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libchromatix_imx214_common.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libchromatix_imx214_common.so \
