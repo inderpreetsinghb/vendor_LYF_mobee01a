@@ -533,9 +533,14 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libwvdrm_L3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvdrm_L3.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libuiblur.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuiblur.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libstlport.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstlport.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmdsprpc.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libshoebox.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
     vendor/LYF/mobee01a/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/LYF/mobee01a/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
@@ -583,6 +588,13 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbrtac.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/libmdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libmdsprpc.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/libqtigef.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libasphere.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libqcbassboost.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libqcreverb.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libqcvirt.so \
+    vendor/LYF/mobee01a/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/vendor/lib64/soundfx/libshoebox.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libactuator_lc898212.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libactuator_lc898212.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libactuator_lc898212_camcorder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libactuator_lc898212_camcorder.so \
     vendor/LYF/mobee01a/proprietary/vendor/lib64/libactuator_lc898212_camera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libactuator_lc898212_camera.so \
