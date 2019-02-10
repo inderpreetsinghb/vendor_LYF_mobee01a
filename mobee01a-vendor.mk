@@ -68,7 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/lib64/vendor.qti.imsrtpservice@1.0.so:system/lib64/vendor.qti.imsrtpservice@1.0.so \
     vendor/LYF/mobee01a/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/LYF/mobee01a/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
-    vendor/LYF/mobee01a/proprietary/vendor/bin/dpmd:$(TARGET_COPY_OUT_VENDOR)/bin/dpmd \
+    vendor/LYF/mobee01a/proprietary/bin/dpmd:system/bin/dpmd \
     vendor/LYF/mobee01a/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/LYF/mobee01a/proprietary/vendor/bin/ims_rtp_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/ims_rtp_daemon \
     vendor/LYF/mobee01a/proprietary/vendor/bin/imsdatadaemon:$(TARGET_COPY_OUT_VENDOR)/bin/imsdatadaemon \
@@ -125,13 +125,13 @@ PRODUCT_COPY_FILES += \
     vendor/LYF/mobee01a/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/LYF/mobee01a/proprietary/vendor/etc/data/qmi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/qmi_config.xml \
     vendor/LYF/mobee01a/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.0-service.widevine.rc \
-    vendor/LYF/mobee01a/proprietary/vendor/etc/init/dpmd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dpmd.rc \
-    vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/cneapiclient.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/cneapiclient.xml \
-    vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/com.qti.dpmframework.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.dpmframework.xml \
+    vendor/LYF/mobee01a/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
+    vendor/LYF/mobee01a/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/LYF/mobee01a/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/com.qualcomm.qti.Performance.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.qualcomm.qti.Performance.xml \
-    vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/com.quicinc.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.quicinc.cne.xml \
-    vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/dpmapi.xml \
+    vendor/LYF/mobee01a/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/LYF/mobee01a/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qcrilhook.xml \
     vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/LYF/mobee01a/proprietary/vendor/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_libpermissions.xml \
